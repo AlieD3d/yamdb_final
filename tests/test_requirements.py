@@ -1,6 +1,6 @@
 import os
 
-from api_yamdb.api_yamdb import settings
+from api_yamdb import settings
 
 
 class TestRequirements:
