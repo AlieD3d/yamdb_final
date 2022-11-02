@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: kerriganxd/yamdb_api:v1.0
+    image: kerriganxd/api_yamdb:v1
     restart: always
     volumes:
       - static_value:/app/static/
