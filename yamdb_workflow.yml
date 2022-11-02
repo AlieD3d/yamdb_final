@@ -60,7 +60,7 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            sudo docker pull kerriganxd/api_yamdb:v1.0
+            sudo docker pull kerriganxd/api_yamdb:v1
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
