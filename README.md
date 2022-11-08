@@ -18,7 +18,7 @@
  - Python 
  - Django 
  - REST Framework 
- - PyJWT 2.1.0
+ - PyJWT 
  - Django filter 
  - Gunicorn 
  - PostgreSQL 
