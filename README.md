@@ -69,7 +69,7 @@ scp nginx.conf <username>@<host>:/home/<username>/nginx.conf
     
     SECRET_KEY=<секретный ключ проекта django>
 
-    USER=<username для подключения к серверу>
+    USERNAME=<username для подключения к серверу>
     HOST=<IP сервера>
     PASSPHRASE=<пароль для сервера, если он установлен>
     SSH_KEY=<ваш SSH ключ (для получения команда: cat ~/.ssh/id_rsa)>
